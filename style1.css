@@ -1,0 +1,6 @@
+.bg-gray-50:before{
+    content: "";
+    
+    opacity:0.5;
+    
+}
