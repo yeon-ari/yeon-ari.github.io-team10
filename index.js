@@ -7,7 +7,7 @@ const info = require("/Users/yeon.ari/Documents/likelion/아기멋�
 const app = express();
 const port = 3000;
 
-mongoose.connect('/', {
+mongoose.connect(config.mongoURI, {
     useNewUrlParser: true, useUnifiedTopology: true
 }).then(() => console.log('MongoDB Connected...'))
     .catch(err => console.log(err))
